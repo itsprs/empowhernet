@@ -59,7 +59,7 @@ function Footer() {
         className="relative rounded-full border border-dashed"
         asChild
       >
-        <Link href="/products" className="group overflow-hidden ps-12">
+        <Link href="/stories" className="group overflow-hidden ps-12">
           <span className="bg-accent/15 absolute start-0 flex size-10 items-center justify-center rounded-full duration-500 group-hover:w-full">
             <Sparkles
               aria-hidden="true"

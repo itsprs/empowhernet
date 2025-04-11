@@ -56,9 +56,10 @@ export const SiteMeta: SiteMeta[] = [
     icon: BriefcaseBusiness,
   },
   {
-    title: "Blog",
-    description: "Read the latest articles and blog posts.",
-    href: "/blog",
+    title: "Stories",
+    description:
+      "Explore inspiring journeys of women breaking barriers, defying stereotypes, and creating change.",
+    href: "/stories",
     category: ["Resources"],
     pos: 4,
     icon: PenLineIcon,

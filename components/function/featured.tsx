@@ -26,28 +26,31 @@ const Feature73 = ({
       title: "Inspiring Stories",
       description:
         "Real-life journeys of women breaking barriers and challenging stereotypes across science, tech, leadership, and more.",
-      image: "/images/features/stories.svg",
+      image:
+        "https://media.istockphoto.com/id/1391976932/vector/childrens-perception-of-community.jpg?s=612x612&w=0&k=20&c=HT3Hppnm9uQWrHK6YBF-a_2mphexed8usm_UeFF1aMI=",
     },
     {
       id: "feature-2",
       title: "Opportunities Hub",
       description:
         "Discover job roles, scholarships, and training programs tailored to support and uplift women in various industries.",
-      image: "/images/features/opportunities.svg", // replace with your asset
+      image:
+        "https://www.shutterstock.com/image-vector/recruitment-human-resources-searching-candidate-600nw-2410790417.jpg",
     },
     {
       id: "feature-3",
       title: "Community Voices",
       description:
         "A platform to share opinions, discuss challenges, and build solidarity through a supportive digital community.",
-      image: "/images/features/community.svg", // replace with your asset
+      image:
+        "https://img.freepik.com/free-vector/people-recording-listening-podcasts_23-2148780926.jpg",
     },
   ],
 }: Feature73Props) => {
   return (
     <section>
       <div className="container flex flex-col gap-16 lg:px-16">
-        <div className="lg:max-w-sm">
+        <div className="lg:max-w-2xl">
           <h2 className="mb-3 text-xl font-semibold md:mb-4 md:text-4xl lg:mb-6">
             {heading}
           </h2>

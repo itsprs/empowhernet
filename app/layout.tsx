@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import NextTopLoader from "nextjs-toploader"
+import { Toaster } from "@/components/ui/sonner"
 import { fontPrimary, fontSecondary } from "@/lib/fonts"
 import { ThemeProvider } from "@/lib/provider/theme-provider"
 import { cn } from "@/lib/utils"
@@ -45,6 +46,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
