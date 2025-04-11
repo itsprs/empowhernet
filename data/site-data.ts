@@ -1,5 +1,6 @@
 import {
   BoxIcon,
+  BriefcaseBusiness,
   FileClockIcon,
   GlobeLockIcon,
   HandshakeIcon,
@@ -47,19 +48,27 @@ export const SiteMeta: SiteMeta[] = [
     icon: HouseIcon,
   },
   {
-    title: "Gallery",
+    title: "Jobs",
     description: "View the latest artworks and creative pieces.",
-    href: "/gallery",
+    href: "/job",
     category: ["Resources"],
     pos: 3,
-    icon: ImagePlayIcon,
+    icon: BriefcaseBusiness,
+  },
+  {
+    title: "Blog",
+    description: "Read the latest articles and blog posts.",
+    href: "/blog",
+    category: ["Resources"],
+    pos: 4,
+    icon: PenLineIcon,
   },
   {
     title: "About",
     description: "Learn more about Pratham Raj and his creative journey.",
     href: "/about",
     category: ["Site"],
-    pos: 4,
+    pos: 5,
     icon: UserIcon,
   },
   {
@@ -67,17 +76,10 @@ export const SiteMeta: SiteMeta[] = [
     description: "Contact me for any queries or collaborations.",
     href: "/contact",
     category: ["Support"],
-    pos: 5,
+    pos: 6,
     icon: PhoneIcon,
   },
-  {
-    title: "Blog",
-    description: "Read the latest articles and blog posts.",
-    href: "/blog",
-    category: ["Resources"],
-    pos: 6,
-    icon: PenLineIcon,
-  },
+
   {
     title: "Changelog",
     description: "View the latest updates and changes to the website.",

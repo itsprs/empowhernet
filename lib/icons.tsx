@@ -50,3 +50,11 @@ export function MinecraftHeartIcon({ ...props }: IconProps) {
     </svg>
   )
 }
+
+export function StarFilled({ ...props }: IconProps) {
+  return (
+    <svg viewBox="0.00143361 -0.000231624 12 12" {...props}>
+      <path d="m6.958.713a1 1 0 00-1.916 0l-.999 3.33-3.33 1a1 1 0 000 1.915l3.33.999 1 3.33a1 1 0 001.915 0l.999-3.33 3.33-1a1 1 0 000-1.915l-3.33-.999-1-3.33" />
+    </svg>
+  )
+}

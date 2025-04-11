@@ -50,3 +50,25 @@ export const Social = [
     link: "https://t.me/im_prs7",
   },
 ]
+
+export const Hero = {
+  description:
+    "When women rise, the world rises with them — because empowered women uplift communities, spark innovation, and inspire generations to dream without limits.",
+  keywords: [
+    "EmpowerHerNet",
+    "Women in STEM",
+    "Gender Equality",
+    "Breaking Stereotypes",
+    "Empowering Women",
+    "Diversity in Tech",
+    "STEM for Girls",
+    "Women in Technology",
+    "Inspiring Women",
+    "Equality in Education",
+    "HerStory",
+    "Women Empowerment",
+    "Inclusive Innovation",
+    "Tech for All",
+    "Representation Matters",
+  ],
+}
